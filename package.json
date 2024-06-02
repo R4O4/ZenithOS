@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass-zenithos": "sass --watch src/ZenithOS/sass/zenith-main.scss:src/ZenithOS/css/zenith-main.css"
+    "sass-zenithos": "sass --watch sass/zenith-main.scss:css/zenith-main.css"
   },
   "author": "Romain Ducouret",
   "license": "ISC",

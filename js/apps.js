@@ -1,14 +1,14 @@
-let snreApp = document.querySelector('.snre');
+let textedit = document.querySelector('.textedit');
 
-function openSNRE() {
-  if (snreApp.style.display === 'none') {
+function openApp(app) {
+  if (document.getElementsByClassName(app)[0].style.display === 'none') {
     closeOtherApps();
-    snreApp.style.display = 'block';
-  } else  {
-    snreApp.style.display = 'none';
+    document.getElementsByClassName(app)[0].style.display = 'block';
+  } else {
+    document.getElementsByClassName(app)[0].style.display = 'none';
   }
 }
 
 function closeOtherApps() {
-  snreApp.style.display = 'none';
+  textedit.style.display = 'none';
 }

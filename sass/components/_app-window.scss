@@ -54,14 +54,14 @@
   }
 }
 
-.snre {
-  .snre-app {
+.textedit {
+  .textedit-app {
     background: #fff;
     height: 87%;
     width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    .snre-header {
+    .textedit-header {
       display: flex;
       width: 100%;
       flex-direction: row;
@@ -70,7 +70,7 @@
         width: 100px;
         height: min-content;
       }
-      .snre-title {
+      .textedit-title {
         display: flex;
         width: 357px;
         flex-direction: column;

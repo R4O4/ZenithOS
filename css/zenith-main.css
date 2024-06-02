@@ -63,6 +63,7 @@
   background-size: contain;
   margin: 0 4px;
   padding: 0;
+  background-color: transparent;
 }
 .zenithos-taskbar .zenithos-apps .zenithos-center-apps .zenithos-taskbar-center-app:hover {
   cursor: url("../icons/cursor/link.cur"), pointer;
@@ -211,24 +212,24 @@ body, html {
   cursor: url("../icons/cursor/link.cur"), pointer;
 }
 
-.snre .snre-app {
+.textedit .textedit-app {
   background: #fff;
   height: 87%;
   width: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.snre .snre-app .snre-header {
+.textedit .textedit-app .textedit-header {
   display: flex;
   width: 100%;
   flex-direction: row;
 }
-.snre .snre-app .snre-header .mariane-logo {
+.textedit .textedit-app .textedit-header .mariane-logo {
   margin: 34px;
   width: 100px;
   height: min-content;
 }
-.snre .snre-app .snre-header .snre-title {
+.textedit .textedit-app .textedit-header .textedit-title {
   display: flex;
   width: 357px;
   flex-direction: column;

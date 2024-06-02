@@ -61,7 +61,7 @@
         background-size: contain;
         margin: 0 4px;
         padding: 0;
-        background-color: red;
+        background-color: transparent;
         &:hover {
           cursor: $pointer-cursor;
           animation: bounce 1.5s ease infinite;

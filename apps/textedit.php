@@ -1,7 +1,7 @@
-<section class="app-window snre" style="display: none;">
+<section class="app-window textedit" style="display: none;">
 	<div class="window-top-bar">
 		<div class="window-top-bar-title">
-			<p>Test</p>
+			<p>Text edit</p>
 		</div>
 		<div class="window-top-bar-buttons">
             <button class="window-top-bar-button" id="close-window">
@@ -15,7 +15,7 @@
 			</button>
 		</div>
 	</div>
-	<div class="app-window-content snre-app">
+	<div class="app-window-content textedit-app">
 		<!-- app content -->
 	</div>
 </section>

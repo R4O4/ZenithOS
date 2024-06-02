@@ -11,7 +11,7 @@
   <?php include "components/shortcuts.php"; ?>
   <?php include "components/home.php"; ?>
   <!-- Applications -->
-  <?php include "apps/SNRE/snre.php"; ?>
+  <?php include "apps/textedit.php"; ?>
 
   <script src="js/basicFunctions.js"></script>
   <script src="js/windows.js"></script>
