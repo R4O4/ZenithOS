@@ -1,0 +1,134 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#checkbox {
+  display: none;
+}
+
+.switch {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(99, 99, 99);
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(126, 126, 126);
+  box-shadow: 0px 0px 3px rgb(2, 2, 2) inset;
+}
+
+.powersign {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  border: 4px solid rgb(48, 48, 48);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.powersign::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background-color: rgb(99, 99, 99);
+  position: absolute;
+  top: -60%;
+  z-index: 2;
+}
+
+.powersign::after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: rgb(48, 48, 48);
+  position: absolute;
+  top: -60%;
+  z-index: 3;
+}
+
+#checkbox:checked + .switch .powersign {
+  border: 4px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgb(151, 243, 255), 0px 0px 5px rgb(151, 243, 255) inset;
+}
+
+#checkbox:checked + .switch .powersign::after {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px rgb(151, 243, 255);
+}
+
+#checkbox:checked + .switch {
+  box-shadow: 0px 0px 1px rgb(151, 243, 255) inset, 0px 0px 2px rgb(151, 243, 255) inset, 0px 0px 10px rgb(151, 243, 255) inset, 0px 0px 40px rgb(151, 243, 255), 0px 0px 100px rgb(151, 243, 255), 0px 0px 5px rgb(151, 243, 255);
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(146, 180, 184);
+}
+
+#checkbox:checked + .switch .powersign::before {
+  background-color: rgb(146, 180, 184);
+}
+
+.loading-os {
+  background-color: #2a2a2a;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-loader {
+  top: 59%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.progress-loader {
+  width: 30%;
+  background: rgba(236, 236, 238, 0.253);
+  height: 3px;
+  border-radius: 7px;
+}
+
+.progress {
+  content: "";
+  width: 1px;
+  height: 3px;
+  border-radius: 7px;
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.progress-animated {
+  animation: loading1274 1.5s linear;
+}
+
+@keyframes loading1274 {
+  0% {
+    width: 0%;
+  }
+  10% {
+    width: 10%;
+  }
+  50% {
+    width: 40%;
+  }
+  60% {
+    width: 60%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main_style.css.map */
