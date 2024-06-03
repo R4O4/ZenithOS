@@ -1,0 +1,60 @@
+.taskbar {
+  height: 65px;
+  border-radius: 16px;
+  background: rgba(74, 74, 74, .4);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(15px);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  .taskbar-center-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    transition-duration: 400ms;
+    .taskbar-center-app {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      background: transparent;
+      border: none;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      transition-duration: 400ms;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      .app-title {
+        background-color: #F2F2F2;
+        width: max-content;
+        text-align: center;
+        position: absolute;
+        transition-duration: 400ms;
+        font-weight: 500;
+        padding: 3px 15px;
+        border-radius: 20px;
+        margin-bottom: 90px;
+        opacity: 0;
+      }
+      &:hover {
+        cursor: $pointer-cursor !important;
+        .app-title {
+          display: block;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
