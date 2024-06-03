@@ -49,6 +49,7 @@
         opacity: 0;
       }
       &:hover {
+        cursor: $pointer-cursor !important;
         .app-title {
           display: block;
           opacity: 1;
