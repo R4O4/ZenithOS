@@ -7,11 +7,11 @@ function App() {
     <>
       <section className="taskbar">
         <div className="taskbar-center-apps">
-          <TaskbarApp icon="safari.png" name="Finder" />
-          <TaskbarApp icon="note.png" name="Safari" />
-          <TaskbarApp icon="plan.png" name="App Store" />
-          <TaskbarApp icon="textedit.png" name="Launchpad" />
-          <TaskbarApp icon="settings.png" name="Settings" />
+          <TaskbarApp icon="safari.png" name="Safari" />
+          <TaskbarApp icon="note.png" name="Note" />
+          <TaskbarApp icon="plan.png" name="Plan" />
+          <TaskbarApp icon="textedit.png" name="TextEdit" />
+          <TaskbarApp icon="settings.png" name="Paramètres" />
         </div>
       </section>
     </>

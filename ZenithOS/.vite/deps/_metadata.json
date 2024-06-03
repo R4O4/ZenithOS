@@ -1,0 +1,25 @@
+{
+  "hash": "ea5a995e",
+  "configHash": "01d46c48",
+  "lockfileHash": "7e1b14de",
+  "browserHash": "70c4258e",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "2b524509",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "4b68473f",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-XMYEPMPO": {
+      "file": "chunk-XMYEPMPO.js"
+    }
+  }
+}
