@@ -1,0 +1,11 @@
+@import "../utils/variables";
+
+body, html {
+  margin: 0;
+  padding: 0;
+  cursor: $default-cursor;
+}
+
+* {
+  box-sizing: border-box;
+}
