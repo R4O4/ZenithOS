@@ -1,18 +1,17 @@
 import './css/style.css'
 import Taskbar from './components/Taskbar'
-import AppWindow from './components/AppWindow'
+import MovableWindow from './components/MovableWindow'
 
 function App() {
 
   return (
     <>
       <Taskbar />
-      <AppWindow title="testapp" appName="testapp" id={1}>
-        <section className="test">
-          <h1>oqzkndqklndqzlkdn</h1>
-          <p>qlkdjzqkldnqlzkdnqzdklmkzjdqmkzdqzmkdjqzmdknq</p>
-        </section>
-      </AppWindow>
+      <MovableWindow title="Une Fenêtre">
+        <p>Contenu de la fenêtre</p>
+      </MovableWindow>
+      
+      <script src="./typescript/moveWindow.ts"></script>
     </>
   )
 }
