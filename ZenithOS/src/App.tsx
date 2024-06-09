@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <Taskbar />
-      <MovableWindow title="Une Fenêtre">
+      <MovableWindow title="Une Fenêtre" appName='testapp'>
         <p>Contenu de la fenêtre</p>
       </MovableWindow>
-      
+
       <script src="./typescript/moveWindow.ts"></script>
     </>
   )
