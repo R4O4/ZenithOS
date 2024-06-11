@@ -7,10 +7,16 @@ function App() {
   return (
     <>
       <Taskbar />
-      <MovableWindow title="Une Fenêtre" appName='testapp'>
+      <MovableWindow title="Safari" appName='Safari'>
         <p>Contenu de la fenêtre</p>
       </MovableWindow>
-      <MovableWindow title="Une deuxième fenêtre" appName='testapp2' x={200} y={300}>
+      <MovableWindow title="Note" appName='Note'>
+        <p>Contenu de la fenêtre</p>
+      </MovableWindow>
+      <MovableWindow title="Plan" appName='Plan'>
+        <p>Contenu de la fenêtre</p>
+      </MovableWindow>
+      <MovableWindow title="TextEdit" appName='TextEdit'>
         <p>Contenu de la fenêtre</p>
       </MovableWindow>
 

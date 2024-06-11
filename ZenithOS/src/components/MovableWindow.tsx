@@ -50,15 +50,24 @@ export default function MovableWindow({ title, x, y, children, appName, onClose 
 
 	}
 
+	const handleMinimize = () => {
+		// Minimize the window
+		const appWindow = document.getElementById(appName)
+		appWindow.style.top = "10%"
+		appWindow.style.left = "25%"
+		appWindow.style.width = "50%"
+		appWindow.style.height = "70%"
+	}
+
 
 	return (
-		<section className="app-window" id={appName} style={{ top: position.y, left: position.x }} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
+		<section className="app-window" id={appName} style={{ top: position.y, left: position.x, display: 'none'}} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
 			<div className="app-window-topbar" onMouseDown={handleMouseDown}>
 				<div className="app-window-topbar-btns">
 					<button className="app-window-topbar-btn" onClick={handleClose}>
 						<img src="../src/assets/app/close.svg" alt="close btn icon" />
 					</button>
-					<button className="app-window-topbar-btn">
+					<button className="app-window-topbar-btn" onClick={handleMinimize}>
 						<img src="../src/assets/app/minimize.svg" alt="minimize btn icon" />
 					</button>
 					<button className="app-window-topbar-btn" onClick={handleMaximize}>
