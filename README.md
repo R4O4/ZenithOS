@@ -34,8 +34,6 @@ The `App` component serves as the entry point for a React application featuring 
 
 ## Installation
 
-## Installation
-
 To install ZenithOS from the GitHub repository, you can follow these steps:
 
 1. Clone the repository by running the following command in your terminal:
