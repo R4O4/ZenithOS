@@ -5,7 +5,7 @@ type TaskbarAppProps = {
 
 export default function TaskbarApp({ icon, name }: TaskbarAppProps) {
   function openWindow({ name }: { name: string }) {
-    const app = document.querySelector(`#${name}`);
+    const app: HTMLElement | null = document.querySelector(`#${name}`);
     if (app) {
       if (app.style.display === "none") {
         app.style.display = "block";
