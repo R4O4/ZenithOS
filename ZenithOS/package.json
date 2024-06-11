@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://R4O4.github.io/ZenithOS",
+  "homepage": "https://r4o4.github.io/ZenithOS/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
