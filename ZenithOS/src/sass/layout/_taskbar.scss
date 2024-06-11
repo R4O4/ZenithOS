@@ -11,6 +11,8 @@
   margin: 10px;
   display: flex;
   justify-content: center;
+  user-select: none;
+  
   .taskbar-center-apps {
     display: flex;
     justify-content: center;

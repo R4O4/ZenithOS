@@ -21,6 +21,7 @@
     width: -webkit-fill-available;
     border-radius: 16px 16px 0 0;
     cursor: $default-cursor;
+    user-select: none;
 
     .app-window-topbar-btns {
       display: flex;
@@ -43,5 +44,8 @@
       margin: 0 auto;
     }
 
+  }
+  &:active, &:focus {
+    z-index: 100;
   }
 }
